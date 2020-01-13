@@ -1,0 +1,20 @@
+{
+  "name": "wp-cli/import-csv",
+  "description": "Import CSV to WordPress posts",
+  "type": "wp-cli-package",
+  "homepage": "https://github.com/webkinder/wp-cli-csv-import",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WebKinder",
+      "email": "support@webkinder.ch",
+      "homepage": "https://www.webkinder.ch"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": [ "import-csv.php" ]
+  }
+}
