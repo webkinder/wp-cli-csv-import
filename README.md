@@ -12,9 +12,14 @@
 
 # WP CLI Import CSV
 
-**`importcsv` is a [WP CLI](http://wp-cli.org) command for flexible importing of content from .csv formatted files to WordPress.**
-`importcsv` Subcommands
------------------------
+`importcsv` is a [WP CLI](http://wp-cli.org) command for flexible importing of content from .csv formatted files to WordPress.
+
+### Installation
+```bash
+wp package install https://github.com/webkinder/wp-cli-csv-import.git
+```
+
+### Subcommands
 
 There are 2 subcommands included to check the validity of your arguments, and file header settings. `write` is the only subcommand which will write to the database. The terminal output allows you to review data mapping what will be imported before asking for confirmation of database write.
 
@@ -60,6 +65,8 @@ CSV Import File Header Formatting
 ---------------------------------
 
 Before you import, you'll need to format the header of your .csv file.
+
+Your csv file needs to use `;` as a separator and newlines as a line separator.
 
 The importer uses the headers ( first line ) of files with specific formatting to determine how each column will be imported.
 
