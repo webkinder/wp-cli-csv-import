@@ -96,7 +96,7 @@ If using a previously created post, just specify the post ID:
 
 Meta data is attached to the inserted post using `add_post_meta()`. This example will attach the column of data to post meta data with the key `_home_town`:
 
-    meta-sanitize_key-_home_town
+    meta-blank-_home_town
 
 #### Taxonomy
 
