@@ -5,8 +5,8 @@
 
 
 <center>
-<a href="https://webkinder.ch">
-<img src="https://www.webkinder.ch/static/webkinder-banner.png" alt="WebKinder" />
+<a href="https://www.webkinder.ch">
+<img src="https://www.webkinder.ch/wp-content/static/webkinder-banner.png" alt="WEBKINDER Banner" />
 </a>
 </center>
 
